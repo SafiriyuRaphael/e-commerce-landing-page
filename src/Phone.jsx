@@ -3,7 +3,7 @@ import React from "react";
 const Phone = () => {
   return (
     <div className="relative w-1/2">
-      <div className="border-8 rounded-3xl border-gray-300 flex flex-col px-4 pt-4 pb-1 gap-3 justify-self-center relative bg-white z-50">
+      <div className="border-8 rounded-3xl border-gray-300 flex flex-col px-4 pt-4 pb-1 gap-3 justify-self-center relative bg-white z-40">
         <div className="flex justify-between">
           <img src="/Phone/Apps.png" alt="menu" className="size-8" />
           <img src="/Phone/profile.png" alt="profile" />
