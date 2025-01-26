@@ -1,6 +1,6 @@
-import React from 'react'
+import { Menu } from "lucide-react"
 
-const Header = () => {
+const Header = ({setNavBar}) => {
   return (
     <header className='flex justify-between items-center px-10 py-3'>
         <div className='flex items-start'>
@@ -14,6 +14,8 @@ const Header = () => {
             <li>Lifestyle</li>
             </ul>
             <button className='bg-black px-2 py-4'>SIGN UP</button></div>
+            <Menu className="sm:hidden cursor-pointer hover:text-yellow-500 size-8"
+            onClick={(e)=> setNavBar(true)}/>
     </header>
   )
 }

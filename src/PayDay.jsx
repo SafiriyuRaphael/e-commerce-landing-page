@@ -2,9 +2,9 @@ import React from 'react';
 
 const PayDay = () => {
   return (
-    <section className="bg-yellow-300 h-full md:h-[70vh] w-screen py-4 flex sm:flex-row flex-col my-9">
+    <section className="bg-yellow-300  md:items-center w-screen py-4 flex sm:flex-row flex-col my-9">
       <div
-        className='sm:w-1/2 bg-[url("/payday.png")] bg-no-repeat bg-top bg-cover  md:bg-contain w-full h-[50vh] md:h-full'
+        className='sm:w-1/2 bg-[url("/payday.png")] bg-no-repeat bg-top bg-cover  md:bg-contain w-full h-[40vh]  lg:h-[50vh]'
         role="img"
         aria-label="Payday Sale Banner"
       ></div>

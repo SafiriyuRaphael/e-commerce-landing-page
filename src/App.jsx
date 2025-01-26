@@ -6,13 +6,17 @@ import Favorites from "./Favorites"
 import FreeDownlod from "./FreeDownlod"
 import FooterTop from "./FooterTop"
 import FootDown from "./FootDown"
+import NavBar from "./NavBar"
+import { useState } from "react"
 
 function App() {
+  const [navBar,setNavBar]=useState(false)
   
 
   return (
     <div>
-      <Header/>
+      <Header setNavBar={setNavBar}/>
+      <NavBar navBar={navBar} setNavBar={setNavBar}/>
       <Hero/>
       <Arrivals/>
       <PayDay/>
