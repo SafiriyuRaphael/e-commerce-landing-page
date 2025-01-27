@@ -2,7 +2,7 @@ import { Menu } from "lucide-react"
 
 const Header = ({setNavBar}) => {
   return (
-    <header className='flex justify-between items-center px-10 py-3'>
+    <header className='sticky top-0 sm:static flex justify-between items-center px-10 py-3 bg-white z-50'>
         <div className='flex items-start'>
             <img src="/fashionlogo.png" alt="fashion logo" />
             <h4 className='flex mt-1'>Fashion</h4>
