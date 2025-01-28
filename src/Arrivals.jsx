@@ -7,7 +7,7 @@ const Arrivals = () => {
         {img:"/Rectangle 3.png", head:"Tees & T-Shirt", about:"Explore Now"},
     ]
   return (
-    <section className='mx-3 md:mx-9 my-6'>
+    <section className='mx-3 md:mx-9 my-6' id='arrivals'>
         <h1 className='mb-10 '>NEW ARRIVALS</h1>
         <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-2'>
             {Arrivals.map((pic)=>(

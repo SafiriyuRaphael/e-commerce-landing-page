@@ -7,7 +7,7 @@ const Favorites = () => {
     ]
 
   return (
-    <section className="mx-3 md:mx-9 my-6">
+    <section className="mx-3 md:mx-9 my-6" id="favorite">
         <h4 className='mb-10'>Young's Favorite</h4>
 
         <div className='flex gap-9 flex-col sm:flex-row'>

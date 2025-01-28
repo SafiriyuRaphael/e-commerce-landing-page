@@ -16,10 +16,10 @@ const FootDown = () => {
             <div>
                 <h3>Company</h3>
                 <ul>
-                    <li className='m-0'>About</li>
-                    <li className='m-0'>Contact us</li>
-                    <li className='m-0'>Support</li>
-                    <li className='m-0'>Careers</li>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>About</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Contact us</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Support</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Careers</li></a>
                 </ul>
             </div>
             <div>
@@ -27,21 +27,21 @@ const FootDown = () => {
                     Quick Link
                 </h3>
                 <ul>
-                    <li className='m-0'>Share</li>
-                    <li className='m-0'>Location</li>
-                    <li className='m-0'>Orders</li>
-                    <li className='m-0'>Tracking</li>
-                    <li className='m-0'>Size</li>
-                    <li className='m-0'>Guide</li>
-                    <li className='m-0'>FAQs</li>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Share</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Location</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Orders</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Tracking</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Size</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>Guide</li></a>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0'>FAQs</li></a>
                 </ul>
             </div>
             <div><h3>
                 Legal</h3>
                 <ul className='flex gap-2 md:block'>
-                    <li className='m-0 whitespace-nowrap'>Terms & conditions</li>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0 whitespace-nowrap'>Terms & conditions</li></a>
                     <div className='border-l-2'></div>
-                    <li className='m-0 whitespace-nowrap'>Privacy Policy</li>
+                    <a href="mailto:toniaroyce.com" className='hover:text-amber-400 hover:no-underline'><li className='m-0 whitespace-nowrap'>Privacy Policy</li></a>
                 </ul>
                 </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Download = () => {
   return (
-    <div className='flex items-center justify-center gap-5 flex-col w-1/2'>
+    <div className='flex items-center justify-center gap-5 flex-col w-1/2' id='lifestyle'>
         <h2>DOWNLOAD APP & <br className='m-0'/> GET THE VOUCHER!</h2>
         <p>Get 30% off for first transaction usin Rondovision mobile app for</p>
         <div className='flex  gap-3'>
